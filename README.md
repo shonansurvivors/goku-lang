@@ -1,6 +1,6 @@
-# gokulang
+# goku-lang
 
-日本語文章をアニメ版ドラゴンボールの孫悟空風に変換します。
+日本語文章をアニメ版ドラゴンボールの孫悟空風に変換すっぞ。
 
 ## Reuirements
 
@@ -22,3 +22,9 @@
 >>> g.translate('FF外から失礼します')
 'FFげぇからしつれぇすっぞ'
 ```
+
+## Reference
+
+きんみさん([@_kinmi](https://twitter.com/_kinmi))の作成された悟空語ジェネレーターを参考に作成しました。
+
+[フロント明るくないおじさんがWebアプリ作った話【悟空語ジェネレーター】 - Qiita](https://qiita.com/kinmi/items/c66aa98718acad84621b)
