@@ -19,14 +19,14 @@ class GokuLang:
     }
 
     _result = {
-        'origin': '',
+        'original': '',
         'translated': '',
         'details': [],
     }
 
     def __init__(self):
 
-        self._result['origin'] = ''
+        self._result['original'] = ''
         self._result['translated'] = ''
         self._result['details'] = []
 
@@ -38,7 +38,7 @@ class GokuLang:
 
         self.__init__()
 
-        self._result['origin'] = text
+        self._result['original'] = text
 
         self._morphological_analysis(text)
 
@@ -86,12 +86,10 @@ class GokuLang:
             if i == len(self._result['details']) - 1:
                 break
 
-            '''
             # 助動詞が文末以外だと想定外の変化が発生してしまうため、判定を追加
             # e.g.) し(動詞) + た(助動詞) + ぞ(助詞) => すっ + ぞ + ぞ
             if i != len(self._result['details']) - 2:
                 continue
-            '''
 
             if self._result['details'][i + 1]['part_of_speech'] != '助動詞':
                 continue
@@ -151,9 +149,9 @@ class GokuLang:
 
 
 if __name__ == '__main__':
-    text = '登録したぞ'
+    text = 'FF外から失礼します'
     g = GokuLang()
     g.translate(text)
     print(g._result['details'])
-    print(g._result['origin'])
+    print(g._result['original'])
     print(g._result['translated'])

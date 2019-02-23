@@ -1,5 +1,5 @@
 import unittest
-from translate import GokuLang
+from gokulang import GokuLang
 
 
 class GokuLangTest(unittest.TestCase):
