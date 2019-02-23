@@ -3,7 +3,7 @@ import re
 from janome.tokenizer import Tokenizer
 from pykakasi import kakasi as Kakasi
 
-from romakana.romakana import romaji_to_hiragana
+from .romakana import romaji_to_hiragana
 
 
 class GokuLang:
