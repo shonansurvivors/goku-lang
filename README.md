@@ -1,6 +1,7 @@
 # gokulang
 
 日本語文章をアニメ版ドラゴンボールの孫悟空風に変換すっぞ。
+
 To translate Japanese sentences into Son Goku accent.
 
 ## Reuirements
@@ -12,19 +13,15 @@ To translate Japanese sentences into Son Goku accent.
 
 ## Install
 
-```
 (venv) $ pip install gokulang
-```
 
 ## Usage
 
-```
 (venv) $ python
 >>> from gokulang.gokulang import GokuLang
 >>> g = GokuLang()
 >>> g.translate('FF外から失礼します')
 'FFげぇからしつれぇすっぞ'
-```
 
 ## Detail
 
