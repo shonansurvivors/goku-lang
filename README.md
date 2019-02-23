@@ -10,11 +10,17 @@ To translate Japanese sentences into Son Goku accent.
 - semidbm 0.5.1
 - six 1.12.0
 
+## Install
+
+```
+(venv) $ pip install gokulang
+```
+
 ## Usage
 
 ```
 (venv) $ python
->>> from gokulang import GokuLang
+>>> from gokulang.gokulang import GokuLang
 >>> g = GokuLang()
 >>> g.translate('FF外から失礼します')
 'FFげぇからしつれぇすっぞ'
