@@ -14,7 +14,7 @@ setup(
     name='gokulang',
     packages=['gokulang'],
 
-    version='1.0.0',
+    version='1.0.1',
 
     license='MIT',
 
@@ -25,7 +25,7 @@ setup(
 
     url='https://github.com/shonansurvivors/goku-lang',
 
-    description='To translate Japanese sentences into Son Goku accent',
+    description='To translate Japanese sentences into Son Goku accent.',
     long_description=long_description,
     keywords='gokulang, goku-lang',
 
