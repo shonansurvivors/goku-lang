@@ -14,7 +14,7 @@ setup(
     name='gokulang',
     packages=['gokulang'],
 
-    version='1.0.1',
+    version='1.0.2',
 
     license='MIT',
 
@@ -27,6 +27,7 @@ setup(
 
     description='To translate Japanese sentences into Son Goku accent.',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     keywords='gokulang, goku-lang',
 
     classifiers=[
