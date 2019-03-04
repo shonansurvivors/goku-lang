@@ -29,9 +29,13 @@ print(t)
 FFげぇからしつれぇすっぞ
 ```
 
+## Downloads
+
+[![Downloads](https://pepy.tech/badge/gokulang)](https://pepy.tech/project/gokulang) [![Downloads](https://pepy.tech/badge/gokulang/month)](https://pepy.tech/project/gokulang) [![Downloads](https://pepy.tech/badge/gokulang/week)](https://pepy.tech/project/gokulang)
+
 ## Detail
 
-[悟空語ジェネレーターをぺぇそんでも作ってみたぞ！えーぴーえぇ化もしたぞ！ - Qiita](https://qiita.com/shonansurvivors/items/ce6c1c6f5b43fc16719b)
+[悟空語ジェネレーターをぺぇそん(Python)でも作ってみたぞ！えーぴーえぇ(API)化もしたぞ！ - Qiita](https://qiita.com/shonansurvivors/items/ce6c1c6f5b43fc16719b)
 
 ## Web API
 
