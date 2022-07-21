@@ -54,11 +54,11 @@ class GokuLang:
     def _morphological_analysis(self, text):
         T = Tokenizer()
         tokens = T.tokenize(text.replace('\n', ''))
-        for i in range(len(tokens)):
-            self._detail['surface'] = tokens[i].surface
-            self._detail['part_of_speech'] = tokens[i].part_of_speech.split(',')[0]
-            self._detail['reading'] = tokens[i].reading
-            self._detail['base_form'] = tokens[i].base_form
+        for token in tokens:
+            self._detail['surface'] = token.surface
+            self._detail['part_of_speech'] = token.part_of_speech.split(',')[0]
+            self._detail['reading'] = token.reading
+            self._detail['base_form'] = token.base_form
 
             if self._detail['reading'] != '*':
                 self._detail['original_romaji'] = self._kana_to_romaji(self._detail['reading'])
