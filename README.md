@@ -4,16 +4,18 @@
 
 To translate Japanese sentences into Son Goku accent.
 
-## Reuirements
+## Requirements
 
-- Janome 0.3.7
-- pykakasi 0.94
+- Janome 0.4.2
+- pykakasi 2.2.1
 - semidbm 0.5.1
-- six 1.12.0
+- six 1.15.0
 
-## Install
+## Installation
 
-(venv) $ pip install gokulang
+```
+pip install gokulang
+```
 
 ## Usage
 
